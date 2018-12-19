@@ -1,19 +1,23 @@
 {
   "name": "products-server",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "mysql": "^2.16.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "ejs": "latest",
+    "aws-sdk": "latest",
+    "express": "latest",
+    "body-parser": "latest",
+    "mysql": "latest"
   },
   "devDependencies": {},
   "description": ""
